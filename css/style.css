@@ -15,6 +15,12 @@ h1  {
     margin: 20px;
 }
 
+h1:hover {
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+}
+
 header {
     background-color: rgb(128, 122, 122);
 }
@@ -35,6 +41,11 @@ header nav ul li {
 a {
     color: black;
     font-family: 'Gill Sans', sans-serif;
+}
+
+a:hover {
+    color: white;
+    transition-duration: .25s;
 }
 
 header div img {
@@ -58,32 +69,53 @@ header div p {
     opacity: 40%;
 }
 
+header div p:hover {
+    opacity: 80%;
+    transition-duration: .5;
+}
+
+section h3 {
+    padding-right: 20px;
+}
+
+h3 p {
+    font-size: 80%;
+}
 .mephoto {
-    max-width: 200px;
+    max-width: 150px;
     height: auto;
     float: left;
+    margin: 0px 10px 20px 10px;
 }
 
 .sectionid {
-    text-align: right;
+    border-right: 5px solid rgb(185, 219, 230);
+    max-width: 30%;
     font-family: 'Gill Sans', sans-serif;
-    color: black;
-    padding-right: 20px;
-    font-size: 100%;
 }
 
 .portfolio-body {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
-    margin: 20px;
+    justify-content: left;
     width: auto;
+    padding-left: 20px;
+    margin: 40px auto;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 300px;
+    font-family: 'Gill Sans', sans-serif;
 }
 
 .main-card {
     display: flex;
     position: relative;
-    height: 500px;
+    height: 400px;
     width: 100%;
     border-width: 5px solid;
     border-color: honeydew;
@@ -95,12 +127,36 @@ header div p {
     box-shadow: none;
 }
 
+.sub-card {
+    position: relative;
+    height: 200 px;
+    display: flex;
+    flex-direction: column;
+    border-width: 5px solid;
+    border-color: honeydew;
+    box-shadow: inset rgb(185, 219, 230);
+    justify-content: space-around;
+}
+
+.sub-card:hover {
+    box-shadow: none;
+}
+
+.contactpoints {
+    list-style-type: none;
+    font-family: 'Gill Sans', sans-serif;
+    justify-content: center;
+}
+
+#biotext {
+    padding-left: 20px;
+}
 #music-card {
     background-image: url(../images/tecchlercello.jpeg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-}ß
+}
 
 #making-card {
     background-image: url(../images/stradpainting.jpeg);
