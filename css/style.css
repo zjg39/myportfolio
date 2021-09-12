@@ -119,8 +119,8 @@ h3 p {
     width: 100%;
     border-width: 5px solid;
     border-color: honeydew;
-    box-shadow: inset rgb(185, 219, 230)
-
+    box-shadow: inset rgb(185, 219, 230);
+    flex: 1 1 100%;
 }
 
 .main-card:hover{
@@ -136,6 +136,7 @@ h3 p {
     border-color: honeydew;
     box-shadow: inset rgb(185, 219, 230);
     justify-content: space-around;
+    flex: 1 1 100%;
 }
 
 .sub-card:hover {
