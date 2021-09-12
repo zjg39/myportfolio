@@ -57,3 +57,41 @@ header div p {
     font-size: 200%;
     opacity: 40%;
 }
+
+.mephoto {
+    max-width: 200px;
+    height: auto;
+    float: left;
+}
+
+.sectionid {
+    text-align: right;
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+    padding-right: 20px;
+    font-size: 100%;
+}
+
+.portfolio-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 20px;
+    width: auto;
+}
+
+.main-card {
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.main-card:hover{
+    box-shadow: gray;
+}
+
+#music-card {
+    background-image: url(../images/tecchlercello.jpeg);
+    
+}
