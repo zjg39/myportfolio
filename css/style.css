@@ -49,10 +49,11 @@ header div {
 header div p {
     position: absolute;
     color: black;
-    background-color: rgb(128, 122, 122);
-    bottom: 20px;
+    background-color: white;
+    bottom: 60px;
     right: 40px;
     font-family: 'Gill Sans', sans-serif;
     padding: 10px 20px 10px 20px;
     font-size: 200%;
+    opacity: 40%;
 }
