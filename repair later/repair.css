@@ -1,0 +1,110 @@
+section h3 {
+    padding-right: 20px;
+}
+
+h3 p {
+    font-size: 80%;
+}
+.mephoto {
+    max-width: 150px;
+    height: auto;
+    float: left;
+    margin: 0px 10px 20px 10px;
+}
+
+.sectionid {
+    border-right: 5px solid rgb(185, 219, 230);
+    font-family: 'Gill Sans', sans-serif;
+    padding-top: 20px;
+}
+
+.portfolio-body {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    font-family: 'Gill Sans', sans-serif;
+    padding-bottom: 20px;
+}
+
+.main-card {
+    display: flex;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    border-width: 5px solid;
+    border-color: honeydew;
+    box-shadow: inset rgb(185, 219, 230);
+    flex: 1 1 100%;
+}
+
+.main-card:hover{
+    box-shadow: none;
+}
+
+.sub-card {
+    position: relative;
+    height: 200 px;
+    display: flex;
+    flex-direction: column;
+    border-width: 5px solid;
+    border-color: honeydew;
+    box-shadow: inset rgb(185, 219, 230);
+    justify-content: space-around;
+    flex: 1 1 100%;
+}
+
+.sub-card:hover {
+    box-shadow: none;
+}
+
+.contactpoints {
+    list-style-type: none;
+    font-family: 'Gill Sans', sans-serif;
+    justify-content: center;
+}
+
+#biotext {
+    padding-left: 20px;
+}
+#music-card {
+    background-image: url(../images/tecchlercello.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#making-card {
+    background-image: url(../images/stradpainting.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#coffee-card {
+    background-image: url(../images/roaster.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#coding-card {
+    background-image: url(../images/codingshot2.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#mtg-card {
+    background-image: url(../images/ravnica.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}

@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+/* This code affects the header section: the name, links, "mountain" background strip,
+and anything else in that general area. */
+
 h1  {
     color: black;
     font-family: 'Gill Sans', sans-serif;
@@ -74,115 +77,118 @@ header div p:hover {
     transition-duration: .5;
 }
 
-section h3 {
-    padding-right: 20px;
+
+/* This code affects everything below the header and "mountain" background strip */
+
+.rowdesktop {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 50px;
 }
 
-h3 p {
-    font-size: 80%;
-}
-.mephoto {
-    max-width: 150px;
-    height: auto;
-    float: left;
-    margin: 0px 10px 20px 10px;
+.secondrow {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    width: 75%;
 }
 
-.sectionid {
-    border-right: 5px solid rgb(185, 219, 230);
-    max-width: 30%;
+.thirdrow {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: center;
+    width: 75%;
+}
+
+
+.width25 {
+    width: 25%;
+    justify-content: center;
     font-family: 'Gill Sans', sans-serif;
+    display: flex;
+    font-size: 50px;
 }
 
-.portfolio-body {
+.biorow {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    width: auto;
-    padding-left: 20px;
-    margin: 40px auto;
-}
-
-.cards {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 300px;
+    border-left: 5px solid darkslateblue;
+    color: black;
     font-family: 'Gill Sans', sans-serif;
+    padding: 0px 20px;
+    width: 75%;
 }
 
-.main-card {
+.mephoto {
+    max-width: 200px;
+    margin: 0px 10px 10px 0px;
+    max-height: 150px;
+}
+
+.musicrow {
     display: flex;
-    position: relative;
-    height: 400px;
-    width: 100%;
-    border-width: 5px solid;
-    border-color: honeydew;
-    box-shadow: inset rgb(185, 219, 230);
-    flex: 1 1 100%;
-}
-
-.main-card:hover{
-    box-shadow: none;
-}
-
-.sub-card {
-    position: relative;
-    height: 200 px;
-    display: flex;
-    flex-direction: column;
-    border-width: 5px solid;
-    border-color: honeydew;
-    box-shadow: inset rgb(185, 219, 230);
-    justify-content: space-around;
-    flex: 1 1 100%;
-}
-
-.sub-card:hover {
-    box-shadow: none;
-}
-
-.contactpoints {
-    list-style-type: none;
-    font-family: 'Gill Sans', sans-serif;
+    flex-direction: row;
     justify-content: center;
+    border-left: 5px solid darkslateblue;
+    width: 75%;
+
+}
+.musicphoto {
+    max-width: 800px;
+    max-height: auto;
 }
 
-#biotext {
-    padding-left: 20px;
-}
-#music-card {
-    background-image: url(../images/tecchlercello.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-#making-card {
-    background-image: url(../images/stradpainting.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.overlaytextboxmain {
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+    font-size: 60px;
+    background-color: white;
+    opacity: 60%;
+    position: absolute;
+    margin-top: 400px;
 }
 
-#coffee-card {
-    background-image: url(../images/roaster.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.overlaytextboxmain:hover {
+    opacity: 100%;
+    transition-duration: .5s;
 }
 
-#coding-card {
-    background-image: url(../images/codingshot2.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.overlaytextboxsub {
+    font-family: 'Gill Sans', sans-serif;
+    color: black;
+    font-size: 30px;
+    background-color: white;
+    opacity: 60%;
+    position: absolute;
+    margin-top: 300px;
 }
 
-#mtg-card {
-    background-image: url(../images/ravnica.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.overlaytextboxsub:hover {
+    opacity: 100%;
+    transition-duration: .5s;
+}
+
+.stradivariphoto {
+    max-width: 400px;
+    max-height: auto;
+}
+
+.codingphoto {
+    max-width: 400px;
+    max-height: auto;
+}
+
+.coffeephoto {
+    max-width: 400px;
+    max-height: auto;
+}
+
+.magicphoto {
+    max-width: 400px;
+    max-height: auto;
 }
