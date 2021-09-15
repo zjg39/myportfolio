@@ -15,7 +15,6 @@ h1  {
     width: 100%;
     display: inline;
     background-color: white;
-    margin: 20px;
 }
 
 h1:hover {
@@ -74,7 +73,7 @@ header div p {
 
 header div p:hover {
     opacity: 80%;
-    transition-duration: .5;
+    transition-duration: .5s;
 }
 
 
@@ -85,6 +84,7 @@ header div p:hover {
     align-items: flex-start;
     flex-direction: row;
     margin-top: 50px;
+    flex-wrap: wrap;
 }
 
 .secondrow {
@@ -94,6 +94,7 @@ header div p:hover {
     border-left: 5px solid darkslateblue;
     width: 75%;
     margin-left: 25%;
+    flex-wrap: wrap;
 }
 
 .thirdrow {
@@ -103,6 +104,7 @@ header div p:hover {
     border-left: 5px solid darkslateblue;
     width: 75%;
     margin-left: 25%;
+    flex-wrap: wrap;
 }
 
 
@@ -112,6 +114,7 @@ header div p:hover {
     font-family: 'Gill Sans', sans-serif;
     display: flex;
     font-size: 50px;
+    flex-wrap: wrap;
 }
 
 .biorow {
@@ -141,56 +144,157 @@ header div p:hover {
 .musicphoto {
     max-width: 800px;
     max-height: auto;
-}
-
-.overlaytextboxmain {
-    font-family: 'Gill Sans', sans-serif;
-    color: black;
-    font-size: 60px;
-    background-color: white;
-    opacity: 60%;
-    position: absolute;
-    margin-top: 400px;
-}
-
-.overlaytextboxmain:hover {
-    opacity: 100%;
-    transition-duration: .5s;
-}
-
-.overlaytextboxsub {
-    font-family: 'Gill Sans', sans-serif;
-    color: black;
-    font-size: 30px;
-    background-color: white;
-    opacity: 60%;
-    position: absolute;
-    margin-top: 300px;
-}
-
-
-
-.overlaytextboxsub:hover {
-    opacity: 100%;
-    transition-duration: .5s;
+    border: darkslateblue solid 5px;
 }
 
 .stradivariphoto {
-    max-width: 400px;
-    max-height: auto;
+   max-width: 350px;
+   height: 250px;
+   border: darkslateblue solid 5px;
+   margin-top: 72px;
+   margin-right: 60px;
 }
 
 .codingphoto {
-    max-width: 400px;
-    max-height: auto;
+   max-width: 360px;
+   height: 250px;
+   border: darkslateblue solid 5px;
+   margin-top: 72px;
+   margin-left: 60px;
 }
 
 .coffeephoto {
-    max-width: 400px;
-    max-height: auto;
+    max-width: 350px;
+    height: 250px;
+    border: darkslateblue solid 5px;
+    margin-top: 50px;
+    margin-right: 55px;
 }
 
 .magicphoto {
-    max-width: 400px;
-    max-height: auto;
+   max-width: 350px;
+   height: 250px;
+   border: darkslateblue solid 5px;
+   margin-top: 50px;
+   margin-left: 60px;
 }
+
+.maincard {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: darkslateblue;
+    color: lightgray;
+    padding: 5px;
+    align-items: flex-start;
+    margin-top: 625px;
+    margin-right: 450px;
+    opacity: 60%;
+    position: absolute;
+}
+
+.littlecard1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: darkslateblue;
+    color: lightgray;
+    padding: 5px;
+    position: absolute;
+    align-items: flex-end;
+    margin-top: 280px;
+    opacity: 60%;
+}
+
+.littlecard2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: darkslateblue;
+    color: lightgray;
+    padding: 5px;
+    position: absolute;
+    align-items: flex-end;
+    margin-top: 280px;
+    opacity: 60%;
+    margin-left: 60px;
+}
+
+.littlecard3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: darkslateblue;
+    color: lightgray;
+    padding: 5px;
+    position: absolute;
+    align-items: flex-end;
+    margin-top: 260px;
+    opacity: 60%;
+}
+
+.littlecard4 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: darkslateblue;
+    color: lightgray;
+    padding: 5px;
+    position: absolute;
+    align-items: flex-end;
+    margin-top: 260px;
+    opacity: 60%;
+    margin-left: 60px;
+}
+
+.contactblock {
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 25%;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 50px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+footer div {
+    justify-content: center;
+    padding-bottom: 50px;
+    width: 75%;
+    border-left: 5px solid darkslateblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+footer ul li {
+    display: inline;
+    list-style-type: none;
+    font-size: 30px;
+    padding: 0px 10px;
+}
+
+#littlecardhover:hover {
+    opacity: 100%;
+    transition-delay: .1s;
+    transition-duration: .5s;
+}
+
+
