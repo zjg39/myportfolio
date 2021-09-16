@@ -46,7 +46,7 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: lightblue;
     transition-duration: .25s;
 }
 
@@ -297,4 +297,28 @@ footer ul li {
     transition-duration: .5s;
 }
 
+@media screen and (max-width: 768px) {
+    footer ul li {
+        display: flex;
+        justify-content: center;
+    }
+    .musicphoto {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .biorow {
+        flex-wrap: wrap;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    footer div {
+        border: none;
+    }
+    header h1 {
+        padding: 5px;
+    }
+
+}
 
